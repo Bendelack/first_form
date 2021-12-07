@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.content{
+    background-image: url(background-image.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.forms{
+    margin-left: 5%;
+    margin-top: 5%;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    display: table;
+}
+
+.forms h1{
+    margin-bottom: 1em;
+}
+
+label{
+    display: block;
+}
+
+input[type="text"], input[type="email"], input[type="tel"], textarea, select{
+    margin-bottom: 1em;
+    border: 1px solid rgb(0, 225, 255);
+}
+
+#nome{
+    border-radius: 3px;
+    padding-left: 1em;
+    height: 30px;
+}
+
+#sobrenome{
+    border-radius: 3px;
+    padding-left: 1em;
+    height: 30px;
+}
+
+#email{
+    border-radius: 3px;
+    padding-left: 1em;
+    width: 63%;
+    height: 30px;
+}
+
+input[type="tel"]{
+    border-radius: 3px;
+    padding-left: 1em;
+    height: 30px;
+}
+
+#options{
+    padding-left: 1em;
+    border-radius: 3px;
+    height: 30px;
+}
+
+#options:hover{
+    cursor: pointer;
+}
+
+select{
+    width: 32%;
+}
+
+#answer{
+    resize: none;
+    border-radius: 3px;
+    padding: 1em;
+    width: 61%;
+    height: 80px;
+}
+
+#buttom{
+    color: white;
+    background: none;
+    padding: 1em;
+    border: 2px solid white;
+    border-radius: 5px;
+}
+
+#buttom:hover{
+    cursor:pointer;
+}
+
+#tel{
+    width: 13%;
+}
+
+#tel2{
+    width: 13%;
+}

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <title>Formulário</title>
+        <meta charset="utf-8">
+        <meta name= “viewport” content= "width-device-width", initial-scale="1.0", maximum-scale="1.0">
+        <link rel="stylesheet" href="styles/style.css">
+    </head>
+
+    <body class="content">
+
+        <form class="forms">
+            <h1>Formulário de Contato</h1>
+            <div >
+                <label >Seu Nome</label>
+                <input id="nome" type="text" placeholder="Primeiro nome">
+                <input id="sobrenome" type="text" placeholder="Último nome">
+            </div>
+
+            <div >
+                <label class="label">Seu Email</label>
+                <input id="email" type="email" placeholder="nome@email.com">
+            </div>
+
+            <div >
+                <label class="label">Telefone*</label>
+                <input id="tel" type="tel" placeholder="+55" required>
+                <input id="tel2" type="tel" placeholder="83" required>
+                <input id="tel3" type="tel" placeholder="987654321" required>
+            </div>
+
+            <div >
+                <label class="label">Assunto da Mensagem*</label>
+                <select id="options" required>
+                    <option selected disabled>Selecione...</option>
+                    <option>Crítica</option>
+                    <option>Opinião</option>
+                    <option>Outro</option>
+                </select>
+            </div>
+
+            <div>
+                <label>Mensagem*</label>
+                <textarea id="answer" type="text" required name="message" cols="38" rows="10"></textarea>
+            </div>
+            <hr>
+            <br>
+            <br>
+            <div>
+                <input id="buttom" type="submit" value="ENVIAR FORMULÁRIO">
+            </div>
+
+        </form>
+
+    </body>
+</html>
